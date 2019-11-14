@@ -8,9 +8,9 @@ class AddingTest {
 
 	@Test
 	void test() {
-		Adding e = new Adding();
+		Adding a = new Adding();
 		int expected = 2;
-		int actual = e.add(1, 1);
+		int actual = a.add(1, 1);
 		assertEquals(expected, actual);
 	}
 
